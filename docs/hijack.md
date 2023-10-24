@@ -9,7 +9,7 @@ Qiling is able to hijack the program standard streams (_stdin_, _stdout_ and _st
 Simple mock streams may be found at the `pipe` extention package. Though the simple streams would fit most of the common scenarios, they may be easily extended as needed.
 
 ```python
-from qiling import 
+from qiling import *
 from qiling.extensions import pipe
 
 def force_call_dialog_func(ql: Qiling) -> None:
